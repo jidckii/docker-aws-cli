@@ -10,6 +10,7 @@ RUN apk add --update --no-cache \
     py-pip \
     bash \
     jq \
+    tzdata \
     # Install awscli and ansible
     && pip install --upgrade pip \
     && pip install ansible==${ANSIBLE_VERSION} \
